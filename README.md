@@ -1,2 +1,2 @@
 # star_-repositories
-记录我star的仓库
+> 用来记录Stars的仓库
