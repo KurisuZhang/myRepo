@@ -1,33 +1,41 @@
 # star_-repositories
 > 用来记录Stars的仓库
 
-## AI
-[吴恩达老师的深度学习课程笔记及资源](https://github.com/fengdu78/deeplearning_ai_books)  
-[TensorFlow-2.x-Tutorials - 实战教程](https://github.com/dragen1860/TensorFlow-2.x-Tutorials)  
-
-
-
 
 ## 工具
-[Historical-ranking-data-visualization- 数据变化可视化框架](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js)  
+[Historical-visualization- 数据变化可视化框架](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js)  
 [carbon - 用图片的形式展示代码](https://github.com/carbon-app/carbon)  
 [trackerslist - 更新种子服务器](https://github.com/ngosang/trackerslist)  
 [youtube-dl - 下载视频](https://github.com/ytdl-org/youtube-dl)  
 [simple-php-github-toc - markdown生成toc](https://github.com/xingshaocheng/simple-php-github-toc)  
-[merger - 二维码合一](https://github.com/hifocus/merger)
+[chineseocr_lit - 轻量的ocr识别](https://github.com/ouyanghuiyu/chineseocr_lite)  
+[lede - Lean的openwrt路由](https://github.com/coolsnowwolf/lede)  
 
-
-
-
-## Server 
-[Linux-NetSpeed - 加速合集脚本](https://github.com/chiakge/Linux-NetSpeed)  
-[aria2-ariang-x-docker-compose](https://github.com/wahyd4/aria2-ariang-x-docker-compose)
 
 
 ## 聚合
 [GitHubDaily](https://github.com/GitHubDaily/GitHubDaily)  
 [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)  
 [ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes)
+
+
+
+## AI
+[吴恩达老师的深度学习课程笔记及资源](https://github.com/fengdu78/deeplearning_ai_books)  
+[TensorFlow-2.x-Tutorials - 实战教程](https://github.com/dragen1860/TensorFlow-2.x-Tutorials)  
+[pytorch-handbook - jupyter 的pytorch教程](https://github.com/zergtant/pytorch-handbook)  
+[funNLP - 中文的NLP处理](https://github.com/fighting41love/funNLP)  
+[Dive-into-DL-TensorFlow2.0 - Dive-into-DL例子的TF化](https://github.com/TrickyGo/Dive-into-DL-TensorFlow2.0)  
+[tensorflow2_tutorials_chinese](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)  
+
+
+
+## Server 
+[Linux-NetSpeed - 加速合集脚本](https://github.com/chiakge/Linux-NetSpeed)  
+[aria2-ariang-x-docker-compose](https://github.com/wahyd4/aria2-ariang-x-docker-compose)  
+[simple-torrent](https://github.com/boypt/simple-torrent)
+
+
 
 ## Java
 [JFoenix - javaFX框架样式包](https://github.com/jfoenixadmin/JFoenix)  
@@ -50,8 +58,11 @@
 
 
 ## 科学上网
-[ShadowsocksX-NG-R - macOS的工具](https://github.com/shadowsocks/ShadowsocksX-NG/releases)  
-[ShadowsocksX-N- mac](https://github.com/shadowsocks/ShadowsocksX-NG)  
+  [ShadowsocksX-N- mac的工具](https://github.com/shadowsocks/ShadowsocksX-NG)   
+[V2Ray_ws-tls_bash_oneke - v2ray一键安装脚本](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)  
+[Share-SSR-V2ray - 临时分享](https://github.com/selierlin/Share-SSR-V2ray)  
+[v2rayN - windows的工具](https://github.com/2dust/v2rayN)
+
 
 
 ## macOS
