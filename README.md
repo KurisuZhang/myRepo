@@ -69,5 +69,6 @@
 [keycastr - 记录按键](https://github.com/keycastr/keycastr)  
 [Brooklyn- mac锁屏](https://github.com/pedrommcarrasco/Brooklyn)  
 [OpenEmu - 游戏模拟器](https://github.com/OpenEmu/OpenEmu)
+[Mos - 平滑鼠标工具](https://github.com/Caldis/Mos)
 
 
