@@ -35,6 +35,7 @@
 [Linux-NetSpeed - 加速合集脚本](https://github.com/chiakge/Linux-NetSpeed)  
 [aria2-ariang-x-docker-compose](https://github.com/wahyd4/aria2-ariang-x-docker-compose)  
 [simple-torrent](https://github.com/boypt/simple-torrent)
+[Sakura - worldpress主题](https://github.com/mashirozx/Sakura)
 
 
 
