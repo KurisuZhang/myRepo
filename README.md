@@ -18,7 +18,7 @@
 [GitHubDaily](https://github.com/GitHubDaily/GitHubDaily)  
 [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)  
 [ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes)  
-[GitHub-Chinese-Top-Charts - GitHub中文排行榜](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
+[GitHub-Chinese-Top-Charts - GitHub中文排行榜](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)  
 [iptv  视频直播源](https://github.com/iptv-org/iptv)
 
 
@@ -77,7 +77,7 @@
 ## macOS
 [keycastr - 记录按键](https://github.com/keycastr/keycastr)  
 [Brooklyn- mac锁屏](https://github.com/pedrommcarrasco/Brooklyn)  
-[OpenEmu - 游戏模拟器](https://github.com/OpenEmu/OpenEmu)
-[Mos - 平滑鼠标工具](https://github.com/Caldis/Mos)
+[OpenEmu - 游戏模拟器](https://github.com/OpenEmu/OpenEmu)  
+[Mos - 平滑鼠标工具](https://github.com/Caldis/Mos)  
 
 
