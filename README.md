@@ -9,7 +9,8 @@
 [youtube-dl - 下载视频](https://github.com/ytdl-org/youtube-dl)  
 [simple-php-github-toc - markdown生成toc](https://github.com/xingshaocheng/simple-php-github-toc)  
 [chineseocr_lit - 轻量的ocr识别](https://github.com/ouyanghuiyu/chineseocr_lite)  
-[lede - Lean的openwrt路由](https://github.com/coolsnowwolf/lede)  
+[CopyTranslator  翻译工具](https://github.com/CopyTranslator/CopyTranslator)
+  
 
 
 
@@ -18,6 +19,7 @@
 [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)  
 [ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes)  
 [GitHub-Chinese-Top-Charts - GitHub中文排行榜](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
+[iptv  视频直播源](https://github.com/iptv-org/iptv)
 
 
 
@@ -39,14 +41,6 @@
 [WebStackPage  网址导航](https://github.com/WebStackPage/WebStackPage.github.io)  
 
 
-## Java
-[JFoenix - javaFX框架样式包](https://github.com/jfoenixadmin/JFoenix)  
-[awesome-android-ui - 安卓ui](https://github.com/wasabeef/awesome-android-ui)  
-[ddnotes - 安卓记账软件](https://github.com/dingdangmao123/ddnotes)  
-[/android-CollectionDemo - 安卓例子](https://github.com/wapchief/android-CollectionDemo)
-
-
-
 ## Python
 [PyQt5 - python GUI的例子](https://github.com/PyQt5/PyQt)  
 [PyQt5-Apps - 一些例子](https://github.com/taseikyo/PyQt5-Apps)  
@@ -56,12 +50,24 @@
 [word_cloud - 词云](https://github.com/amueller/word_cloud)  
 [jieba - 分词](https://github.com/fxsjy/jieba)  
 [KeymouseGo - 按键精灵软件](https://github.com/taojy123/KeymouseGo)  
-[qrcode - 特色验证码](https://github.com/sylnsfar/qrcode)
+[qrcode - 特色验证码](https://github.com/sylnsfar/qrcode)  
+[lede - Lean的openwrt路由](https://github.com/coolsnowwolf/lede)  
+
+
+
+
+## Java
+[JFoenix - javaFX框架样式包](https://github.com/jfoenixadmin/JFoenix)  
+[awesome-android-ui - 安卓ui](https://github.com/wasabeef/awesome-android-ui)  
+[ddnotes - 安卓记账软件](https://github.com/dingdangmao123/ddnotes)  
+[/android-CollectionDemo - 安卓例子](https://github.com/wapchief/android-CollectionDemo)
+
+
 
 
 
 ## 科学上网
-  [ShadowsocksX-N- mac的工具](https://github.com/shadowsocks/ShadowsocksX-NG)   
+[ShadowsocksX-N- mac的工具](https://github.com/shadowsocks/ShadowsocksX-NG)   
 [V2Ray_ws-tls_bash_oneke - v2ray一键安装脚本](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)  
 [Share-SSR-V2ray - 临时分享](https://github.com/selierlin/Share-SSR-V2ray)  
 [v2rayN - windows的工具](https://github.com/2dust/v2rayN)
