@@ -31,12 +31,12 @@
 
 
 
-## Server 软件
+## Server
 [Linux-NetSpeed - 加速合集脚本](https://github.com/chiakge/Linux-NetSpeed)  
 [aria2-ariang-x-docker-compose](https://github.com/wahyd4/aria2-ariang-x-docker-compose)  
-[simple-torrent](https://github.com/boypt/simple-torrent)
-[Sakura - worldpress主题](https://github.com/mashirozx/Sakura)
-[WebStackPage  网址导航](https://github.com/WebStackPage/WebStackPage.github.io)
+[simple-torrent](https://github.com/boypt/simple-torrent)  
+[Sakura - worldpress主题](https://github.com/mashirozx/Sakura)  
+[WebStackPage  网址导航](https://github.com/WebStackPage/WebStackPage.github.io)  
 
 
 ## Java
@@ -56,6 +56,7 @@
 [word_cloud - 词云](https://github.com/amueller/word_cloud)  
 [jieba - 分词](https://github.com/fxsjy/jieba)  
 [KeymouseGo - 按键精灵软件](https://github.com/taojy123/KeymouseGo)  
+[qrcode - 特色验证码](https://github.com/sylnsfar/qrcode)
 
 
 
