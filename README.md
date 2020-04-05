@@ -1,7 +1,6 @@
 # star_-repositories
 > 用来记录Stars的仓库
 
-
 ## 工具
 [Historical-visualization- 数据变化可视化框架](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js)  
 [carbon - 用图片的形式展示代码](https://github.com/carbon-app/carbon)  
@@ -12,15 +11,12 @@
 [CopyTranslator  翻译工具](https://github.com/CopyTranslator/CopyTranslator)
   
 
-
-
 ## 聚合
 [GitHubDaily](https://github.com/GitHubDaily/GitHubDaily)  
 [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)  
 [ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes)  
 [GitHub-Chinese-Top-Charts - GitHub中文排行榜](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)  
 [iptv  视频直播源](https://github.com/iptv-org/iptv)
-
 
 
 ## AI
@@ -32,12 +28,14 @@
 [tensorflow2_tutorials_chinese](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)  
 
 
-
 ## Server
 [Linux-NetSpeed - 加速合集脚本](https://github.com/chiakge/Linux-NetSpeed)  
 [aria2-ariang-x-docker-compose](https://github.com/wahyd4/aria2-ariang-x-docker-compose)  
+[lede - Lean的openwrt路由](https://github.com/coolsnowwolf/lede)  
 [simple-torrent](https://github.com/boypt/simple-torrent)  
 [Sakura - worldpress主题](https://github.com/mashirozx/Sakura)  
+[Memory - worldpress主题](https://github.com/ShawnZeng1996/Memory)  
+[argon-theme - worldpress主题](https://github.com/solstice23/argon-theme)  
 [WebStackPage  网址导航](https://github.com/WebStackPage/WebStackPage.github.io)  
 
 
@@ -51,19 +49,14 @@
 [jieba - 分词](https://github.com/fxsjy/jieba)  
 [KeymouseGo - 按键精灵软件](https://github.com/taojy123/KeymouseGo)  
 [qrcode - 特色验证码](https://github.com/sylnsfar/qrcode)  
-[lede - Lean的openwrt路由](https://github.com/coolsnowwolf/lede)  
-
-
+[python-small-examples - 一些例子的实现](https://github.com/jackzhenguo/python-small-examples)  
 
 
 ## Java
 [JFoenix - javaFX框架样式包](https://github.com/jfoenixadmin/JFoenix)  
 [awesome-android-ui - 安卓ui](https://github.com/wasabeef/awesome-android-ui)  
 [ddnotes - 安卓记账软件](https://github.com/dingdangmao123/ddnotes)  
-[/android-CollectionDemo - 安卓例子](https://github.com/wapchief/android-CollectionDemo)
-
-
-
+[android-CollectionDemo - 安卓例子](https://github.com/wapchief/android-CollectionDemo)  
 
 
 ## 科学上网
@@ -71,7 +64,6 @@
 [V2Ray_ws-tls_bash_oneke - v2ray一键安装脚本](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)  
 [Share-SSR-V2ray - 临时分享](https://github.com/selierlin/Share-SSR-V2ray)  
 [v2rayN - windows的工具](https://github.com/2dust/v2rayN)
-
 
 
 ## macOS
