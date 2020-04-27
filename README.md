@@ -8,7 +8,8 @@
 [youtube-dl - 下载视频](https://github.com/ytdl-org/youtube-dl)  
 [simple-php-github-toc - markdown生成toc](https://github.com/xingshaocheng/simple-php-github-toc)  
 [chineseocr_lit - 轻量的ocr识别](https://github.com/ouyanghuiyu/chineseocr_lite)  
-[CopyTranslator  翻译工具](https://github.com/CopyTranslator/CopyTranslator)
+[CopyTranslator  翻译工具](https://github.com/CopyTranslator/CopyTranslator)  
+[PicGo - 图床](https://github.com/Molunerfinn/PicGo)   
   
 
 ## 聚合
@@ -16,7 +17,7 @@
 [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)  
 [ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes)  
 [GitHub-Chinese-Top-Charts - GitHub中文排行榜](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)  
-[iptv - 视频直播源](https://github.com/iptv-org/iptv)
+[iptv - 视频直播源](https://github.com/iptv-org/iptv)  
 
 
 ## AI
@@ -26,6 +27,9 @@
 [funNLP - 中文的NLP处理](https://github.com/fighting41love/funNLP)  
 [Dive-into-DL-TensorFlow2.0 - Dive-into-DL例子的TF化](https://github.com/TrickyGo/Dive-into-DL-TensorFlow2.0)  
 [tensorflow2_tutorials_chinese](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)  
+[eat_tensorflow2_in_30_days - tensorflow 2.0 教程](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)  
+[t81_558_deep_learning - mac安装tensorflow](https://github.com/jeffheaton/t81_558_deep_learning)  
+[dash-docset-tensorflow  - 生成tensorflow dash 文档](https://github.com/ppwwyyxx/dash-docset-tensorflow)  
 
 
 ## Server
@@ -37,6 +41,10 @@
 [Memory - worldpress主题](https://github.com/ShawnZeng1996/Memory)  
 [argon-theme - worldpress主题](https://github.com/solstice23/argon-theme)  
 [WebStackPage  网址导航](https://github.com/WebStackPage/WebStackPage.github.io)  
+[dzzoffice - 在线文档处理](https://github.com/zyx0814/dzzoffice)  
+[meedu  在线教育网站](https://github.com/Qsnh/meedu)  
+[WechatMomentScreenshot - 朋友圈工具](https://github.com/TransparentLC/WechatMomentScreenshot)  
+[mikutools-website  在线小工具](https://github.com/Ice-Hazymoon/mikutools-website)  
 
 
 ## Python
@@ -50,6 +58,8 @@
 [KeymouseGo - 按键精灵软件](https://github.com/taojy123/KeymouseGo)  
 [qrcode - 特色验证码](https://github.com/sylnsfar/qrcode)  
 [python-small-examples - 一些例子的实现](https://github.com/jackzhenguo/python-small-examples)  
+[GitToc - markdown生成目录](https://github.com/Holy-Shine/GitToc)  
+[OnlinePythonTutor - python可视化工具](https://github.com/pgbovine/OnlinePythonTutor)  
 
 
 ## Java
@@ -57,13 +67,16 @@
 [awesome-android-ui - 安卓ui](https://github.com/wasabeef/awesome-android-ui)  
 [ddnotes - 安卓记账软件](https://github.com/dingdangmao123/ddnotes)  
 [android-CollectionDemo - 安卓例子](https://github.com/wapchief/android-CollectionDemo)  
+[XUI - Android原生UI框架](https://github.com/xuexiangjys/XUI)  
+[tools-ocr  树洞ocr识别](https://github.com/AnyListen/tools-ocr)  
+
 
 
 ## 科学上网
 [ShadowsocksX-N- mac的工具](https://github.com/shadowsocks/ShadowsocksX-NG)   
-[V2Ray_ws-tls_bash_oneke - v2ray一键安装脚本](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)  
+[V2Ray_ws-tls_bash_oneke - v2ray一键安装脚本](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)    
 [Share-SSR-V2ray - 临时分享](https://github.com/selierlin/Share-SSR-V2ray)  
-[v2rayN - windows的工具](https://github.com/2dust/v2rayN)
+[v2rayN - windows的工具](https://github.com/2dust/v2rayN)  
 
 
 ## macOS
@@ -71,5 +84,7 @@
 [Brooklyn- mac锁屏](https://github.com/pedrommcarrasco/Brooklyn)  
 [OpenEmu - 游戏模拟器](https://github.com/OpenEmu/OpenEmu)  
 [Mos - 平滑鼠标工具](https://github.com/Caldis/Mos)  
+[Karabiner-Elements  键盘按键修改](https://github.com/pqrs-org/Karabiner-Elements)  
+
 
 
