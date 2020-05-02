@@ -85,6 +85,7 @@
 [OpenEmu - 游戏模拟器](https://github.com/OpenEmu/OpenEmu)  
 [Mos - 平滑鼠标工具](https://github.com/Caldis/Mos)  
 [Karabiner-Elements  键盘按键修改](https://github.com/pqrs-org/Karabiner-Elements)  
+[Dozer - 隐藏菜单栏的图标](https://github.com/Mortennn/Dozer)
 
 
 
