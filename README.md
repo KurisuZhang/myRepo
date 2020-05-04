@@ -30,7 +30,8 @@
 [eat_tensorflow2_in_30_days - tensorflow 2.0 教程](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)  
 [t81_558_deep_learning - mac安装tensorflow](https://github.com/jeffheaton/t81_558_deep_learning)  
 [dash-docset-tensorflow  - 生成tensorflow dash 文档](https://github.com/ppwwyyxx/dash-docset-tensorflow)  
-[pycorrector - 中文纠错工具](https://github.com/shibing624/pycorrector)
+[pycorrector - 中文纠错工具](https://github.com/shibing624/pycorrector)  
+[darknet - yolov4](https://github.com/AlexeyAB/darknet)
 
 
 ## Server
