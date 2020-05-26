@@ -23,7 +23,7 @@
 
 ## AI
 [吴恩达老师的深度学习课程笔记及资源](https://github.com/fengdu78/deeplearning_ai_books)  
-[吴恩达-Deep-Learning-notes](https://github.com/bighuang624/Andrew-Ng-Deep-Learning-notes)
+[吴恩达-Deep-Learning-notes](https://github.com/bighuang624/Andrew-Ng-Deep-Learning-notes)  
 [TensorFlow-2.x-Tutorials - 实战教程](https://github.com/dragen1860/TensorFlow-2.x-Tutorials)  
 [pytorch-handbook - jupyter 的pytorch教程](https://github.com/zergtant/pytorch-handbook)  
 [funNLP - 中文的NLP处理](https://github.com/fighting41love/funNLP)  
