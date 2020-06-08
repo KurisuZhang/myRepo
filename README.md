@@ -34,7 +34,7 @@
 [dash-docset-tensorflow  - 生成tensorflow dash 文档](https://github.com/ppwwyyxx/dash-docset-tensorflow)  
 [pycorrector - 中文纠错工具](https://github.com/shibing624/pycorrector)  
 [darknet - yolov4](https://github.com/AlexeyAB/darknet)  
-[]()
+[深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
 
 
 
@@ -66,6 +66,7 @@
 [python-small-examples - 一些例子的实现](https://github.com/jackzhenguo/python-small-examples)  
 [GitToc - markdown生成目录](https://github.com/Holy-Shine/GitToc)  
 [OnlinePythonTutor - python可视化工具](https://github.com/pgbovine/OnlinePythonTutor)  
+[python爬虫教程，带你从零到一，包含js逆向](https://github.com/Kr1s77/Python-crawler-tutorial-starts-from-zero)  
 
 
 ## Java
