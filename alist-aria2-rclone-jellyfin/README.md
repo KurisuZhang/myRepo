@@ -6,7 +6,7 @@
 
 - https://github.com/Masterchiefm/Aria2Dash
 - 重命名脚本:
-  - re_name.sh
+  - [re_name.sh](/re_name.sh)
 
 
 # Alist
@@ -23,6 +23,10 @@
 - jellyfin中播放
 
   - 打开 web代理 => 302重定向
+- webDav
+  - https://alist.nn.ci/zh/guide/webdav.html
+  - http[s]://domain:port/dav/
+  
 
 
 # Rclone
@@ -30,85 +34,77 @@
 - https://rclone.org/install/
 - https://master-jsx.top/archives/alist-linux
 
-1. Docker 中加载映射
+1. fuse3
 
-```
-vim /etc/fuse.conf
-# 确保取消注释 
-user_allow_other
-```
+   - ```bash
+     sudo apt update
+     sudo apt install fuse3
+     ```
 
-2. rclone命令
+2. Docker 中加载映射
 
-```bash
-rclone config
+   - ```bash
+     vim /etc/fuse.conf
+     # 确保取消注释 
+     user_allow_other
+     ```
 
-rclone config show
+3. rclone命令
 
-rclone lsd <name>:
+   - ```bash
+     # 配置
+     rclone config
+     # 列出配置
+     rclone config show
+     # 查看挂载映射
+     rclone lsd <name>:
+     # 挂载 rclone mount <remote_name>:<lsd_name> <local_path>
+     rclone mount alist:阿里云 /home/shuai/aliyun/ --umask 0022 --default-permissions --allow-non-empty --allow-other --no-check-certificate --header "Referer:" --daemon
+     #rclone mount alist:离线下载 /home/shuai/download/ --umask 0022 --default-permissions --allow-non-empty --allow-other --no-check-certificate --header "Referer:" --daemon
+     # 取消挂载 fusermount -u /home/shuai/resource/
+     ```
 
-rclone mount <remote_name>:<lsd_name> <local_path>
+   - alist:离线下载  1.0P     0  1.0P   0% /home/shuai/download
+     alist:阿里云    1.0P     0  1.0P   0% /home/shuai/aliyun
 
+4. systemctl 自动重启
 
-rclone mount alist:阿里云 /home/shuai/emby/alist --umask 0022 --default-permissions --allow-non-empty --allow-other --no-check-certificate --header "Referer:" --daemon
-```
+   - 创建脚本 ```vim /usr/local/bin/rclone-mount.sh```  [rclone-mount.sh](/rclone-mount.sh)
 
+   - 权限 ```sudo chmod +x /usr/local/bin/rclone-mount.sh```
 
+   - 添加systemctl ```vim /etc/systemd/system/rclone.service``` [rclone.service](/rclone.service)
 
-````bash
-# 1. 创建/修改 service 文件
-vim /usr/lib/systemd/system/rclone.service
-
-```
-[Unit]
-Description=Rclone Mount Service
-Documentation=https://rclone.org/docs/
-After=network-online.target
-Wants=network-online.target
-
-[Service]
-Type=simple
-User=root
-ExecStart=/usr/bin/rclone mount remote:/云盘备份 /data/Aliyundev/alidrive \
-    --copy-links \
-    --no-gzip-encoding \
-    --no-check-certificate \
-    --allow-other \
-    --allow-non-empty \
-    --umask 000 \
-    --use-mmap
-Restart=on-failure
-RestartSec=10
-Environment=RCLONE_CONFIG=/root/.config/rclone/rclone.conf
-
-[Install]
-WantedBy=multi-user.target
-```
-
-# 2. 重新加载 systemd 守护进程
-systemctl daemon-reload
-
-# 3. 设置开机自启
-systemctl enable rclone.service
-
-# 4. 启动服务
-systemctl start rclone.service
-
-# 5. 查看服务状态
-systemctl status rclone.service
-
-````
+   - ```bash
+     # 1. 重新加载 systemd 守护进程
+     systemctl daemon-reload
+     # 2. 设置开机自启
+     systemctl enable rclone.service
+     # 3. 启动服务
+     systemctl start rclone.service
+     # 4. 查看服务状态
+     systemctl status rclone.service
+     ```
 
 # Jellyfin
 
-- https://github.com/linuxserver/docker-jellyfin
-- https://github.com/jellyfin/jellyfin
+- Docker 镜像 https://github.com/linuxserver/docker-jellyfin
 
-- 首次配置 http://localhost:8096/web/index.html#!/wizardstart.html
+- 原版镜像 https://github.com/jellyfin/jellyfin
 
+- 安装
 
+  - ```bash
+    mkdir jellyfin
+    cd jellyfin
+    vim docker-compose.yml
+    ```
 
+  - [jellyfin-docker-compose.yml](/jellyfin-docker-compose.yml)
 
-插件
+- 首次配置地址 http://localhost:8096/web/index.html#!/wizardstart.html
 
--  https://github.com/cxfksword/jellyfin-plugin-metashark
+- 插件
+
+  - https://github.com/cxfksword/jellyfin-plugin-metashark
+

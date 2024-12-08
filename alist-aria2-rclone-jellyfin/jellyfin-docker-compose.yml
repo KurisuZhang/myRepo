@@ -8,9 +8,9 @@ services:
       - PGID=1000
       - TZ=America/New_York
     volumes:
-      - //home/shuai/jellyfin:/config
-      - /home/shuai/jellyfin/tv:/data/tvshows
-      - /var/www/html/downloads:/data/movies
+      - /home/shuai/jellyfin:/config
+      - /home/shuai/aliyun:/data/aliyun
+      - /home/shuai/download:/data/download
     ports:
       - 8096:8096
-    restart: unless-stoppedv
+    restart: unless-stopped

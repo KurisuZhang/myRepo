@@ -1,0 +1,16 @@
+[Unit]
+Description=Rclone Mount Service
+Documentation=https://rclone.org/docs/
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/rclone-mount.sh
+Restart=on-failure
+RestartSec=10
+Environment=RCLONE_CONFIG=/root/.config/rclone/rclone.conf
+
+[Install]
+WantedBy=multi-user.target

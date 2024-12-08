@@ -15,6 +15,10 @@
 
 [alist-aria2-rclone-jellyfin - 种子,网盘,刮削,影音部署](/alist-aria2-rclone-jellyfin/)
 
+
+
+# 技术
+
 # 工具
 
 [trackerslist - 更新种子服务器](https://github.com/ngosang/trackerslist)  
