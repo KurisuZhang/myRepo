@@ -1,53 +1,31 @@
-# my-jellyfin
 
-## Aria2 
+
+[toc]
+
+# Aria2
 
 - https://github.com/Masterchiefm/Aria2Dash
-
-- 重命名 'The Apothecary Diaries S01E01-[1080p][BDRIP][x265.FLAC].mkv' => 药屋少女的呢喃_S01E01.mkv
-
-- ```bash
-  #!/bin/bash
-  
-  # 进入包含文件的目录
-  cd /var/www/html/downloads/药屋少女的呢喃/药屋少女的呢喃_S01
-  
-  # 批量重命名
-  for file in *.mkv; do
-      # 提取集数
-      episode=$(echo "$file" | grep -oE 'S01E[0-9]+')
-      # 新的文件名
-      new_name="药屋少女的呢喃_${episode}.mkv"
-      # 重命名文件
-      mv "$file" "$new_name"
-      echo "Renamed '$file' to '$new_name'"
-  done
-  
-  ```
+- 重命名脚本:
+  - re_name.sh
 
 
-## Alist
+# Alist
 
-- https://github.com/AlistGo/alist  
-- https://github.com/AlistGo/with_aria2/tree/v3.40.0
+- 原版  
+  - https://github.com/AlistGo/alist  
 
-  离线下载
+- 原版 + aria2  
+  - https://github.com/AlistGo/with_aria2
 
-  如果你使用 **docker**，请自行映射以下两个默认路径（映射至宿主机相同的目录）
-
-  - **/opt/alist/data/temp/aria2**
-  - **/opt/alist/data/temp/qbittorrent**
-  
-- 重命名插件
+- 重命名插件  
 
   - https://greasyfork.org/zh-CN/scripts/459303
-
 - jellyfin中播放
 
   - 打开 web代理 => 302重定向
 
 
-## Rclone
+# Rclone
 
 - https://rclone.org/install/
 - https://master-jsx.top/archives/alist-linux
@@ -121,7 +99,7 @@ systemctl status rclone.service
 
 ````
 
-## Jellyfin
+# Jellyfin
 
 - https://github.com/linuxserver/docker-jellyfin
 - https://github.com/jellyfin/jellyfin
