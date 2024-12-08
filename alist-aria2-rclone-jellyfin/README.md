@@ -6,7 +6,7 @@
 
 - https://github.com/Masterchiefm/Aria2Dash
 - 重命名脚本:
-  - [re_name.sh](/re_name.sh)
+  - [re_name.sh](/alist-aria2-rclone-jellyfin/re_name.sh)
 
 
 # Alist
@@ -69,11 +69,11 @@
 
 4. systemctl 自动重启
 
-   - 创建脚本 ```vim /usr/local/bin/rclone-mount.sh```  [rclone-mount.sh](/rclone-mount.sh)
+   - 创建脚本 ```vim /usr/local/bin/rclone-mount.sh```  [rclone-mount.sh](/alist-aria2-rclone-jellyfin/rclone-mount.sh)
 
    - 权限 ```sudo chmod +x /usr/local/bin/rclone-mount.sh```
 
-   - 添加systemctl ```vim /etc/systemd/system/rclone.service``` [rclone.service](/rclone.service)
+   - 添加systemctl ```vim /etc/systemd/system/rclone.service``` [rclone.service](/alist-aria2-rclone-jellyfin/rclone.service)
 
    - ```bash
      # 1. 重新加载 systemd 守护进程
@@ -100,7 +100,7 @@
     vim docker-compose.yml
     ```
 
-  - [jellyfin-docker-compose.yml](/jellyfin-docker-compose.yml)
+  - [jellyfin-docker-compose.yml](/alist-aria2-rclone-jellyfinv/jellyfin-docker-compose.yml)
 
 - 首次配置地址 http://localhost:8096/web/index.html#!/wizardstart.html
 
