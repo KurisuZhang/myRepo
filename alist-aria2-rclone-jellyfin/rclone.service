@@ -8,7 +8,9 @@ Wants=network-online.target
 Type=simple
 User=root
 ExecStart=/usr/local/bin/rclone-mount.sh
-Restart=on-failure
+ExecStop=/bin/fusermount -uz /home/shuai/aliyun /home/shuai/download
+RemainAfterExit=yes
+Restart=always
 RestartSec=10
 Environment=RCLONE_CONFIG=/root/.config/rclone/rclone.conf
 
