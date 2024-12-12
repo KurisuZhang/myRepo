@@ -20,6 +20,18 @@
 
 # 技术
 
+
+
+# ios
+
+[https://github.com/altstoreio/AltStore](https://github.com/altstoreio/AltStore)
+
+[https://github.com/SideStore/SideStore](https://github.com/SideStore/SideStore)
+
+[https://github.com/khanhduytran0/LiveContainer](https://github.com/khanhduytran0/LiveContainer)
+
+
+
 # 工具
 
 [trackerslist - 更新种子服务器](https://github.com/ngosang/trackerslist)  
