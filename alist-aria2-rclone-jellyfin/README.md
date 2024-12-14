@@ -107,4 +107,6 @@
 - 插件
 
   - https://github.com/cxfksword/jellyfin-plugin-metashark
+  
+- (低配置禁止自动转码, 防止CPU占用率过高)
 
