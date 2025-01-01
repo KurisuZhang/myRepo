@@ -7,6 +7,8 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=America/New_York
+      - JELLYFIN_FFmpeg__analyzeduration=120000000 # 设置 FFmpeg 的 analyzeduration 参数为 2 分钟
+      - JELLYFIN_FFmpeg__probesize=64M           # 设置 FFmpeg 的 probesize 参数为 64MB
     volumes:
       - /home/shuai/jellyfin:/config
       - /home/shuai/aliyun:/data/aliyun

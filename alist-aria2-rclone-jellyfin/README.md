@@ -59,14 +59,14 @@
      # 查看挂载映射
      rclone lsd <name>:
      # 挂载 rclone mount <remote_name>:<lsd_name> <local_path>
-     rclone mount alist:阿里云 /home/shuai/aliyun/ --umask 0022 --default-permissions --allow-non-empty --allow-other --no-check-certificate --header "Referer:" --daemon
-     #rclone mount alist:离线下载 /home/shuai/download/ --umask 0022 --default-permissions --allow-non-empty --allow-other --no-check-certificate --header "Referer:" --daemon
+     rclone mount alist:阿里云 /home/shuai/aliyun/ --umask 000 --default-permissions --allow-non-empty --allow-other --no-check-certificate --daemon
+     #rclone mount alist:离线下载 /home/shuai/download/ --umask 000 --default-permissions --allow-non-empty --allow-other --no-check-certificate --header "Referer:" --daemon
      # 取消挂载 fusermount -u /home/shuai/resource/
      ```
 
    - alist:离线下载  1.0P     0  1.0P   0% /home/shuai/download
      alist:阿里云    1.0P     0  1.0P   0% /home/shuai/aliyun
-
+   
 4. systemctl 自动重启
 
    - 创建脚本 ```vim /usr/local/bin/rclone-mount.sh```  [rclone-mount.sh](/alist-aria2-rclone-jellyfin/rclone-mount.sh)
@@ -101,6 +101,8 @@
     ```
 
   - [jellyfin-docker-compose.yml](/alist-aria2-rclone-jellyfinv/jellyfin-docker-compose.yml)
+
+  - 环境变量: https://jellyfin.org/docs/general/administration/configuration#main-configuration-options
 
 - 首次配置地址 http://localhost:8096/web/index.html#!/wizardstart.html
 
